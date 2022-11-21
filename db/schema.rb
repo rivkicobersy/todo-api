@@ -21,7 +21,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_21_142127) do
   end
 
   create_table "category_todos", force: :cascade do |t|
-    t.integer "catergory_id"
+    t.integer "category_id"
     t.integer "todo_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

@@ -17,7 +17,9 @@ Todo.create!(user_id: 2, title: "deliberate practice", description: "practice ru
 Category.create!(name: "coding")
 Category.create!(name: "health")
 
-CategoryTodo.create!(catergory_id: 1, todo_id: 4)
-CategoryTodo.create!(catergory_id: 2, todo_id: 3)
-CategoryTodo.create!(catergory_id: 2, todo_id: 2)
-CategoryTodo.create!(catergory_id: 2, todo_id: 1)
+CategoryTodo.create!(category_id: 1, todo_id: 4)
+CategoryTodo.create!(category_id: 2, todo_id: 3)
+CategoryTodo.create!(category_id: 2, todo_id: 2)
+CategoryTodo.create!(category_id: 2, todo_id: 1)
+
+# active record true and false for completion of todo
