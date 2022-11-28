@@ -6,4 +6,5 @@ Rails.application.routes.draw do
 
   get "/todos" => "todos#index"
   post "/users" => "users#create"
+  post "/sessions" => "sessions#create"
 end
